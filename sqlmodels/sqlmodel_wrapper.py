@@ -75,16 +75,16 @@ class SQLModelWrapper:
                if the age is bigger than 65 or smaller than 18 and they belong to avengers team then True
         """
         # Table selection.
-        if issubclass(tables, SQLModel):
-            # If user simply provided one table. Select directly.
-            statement = select(tables)
-        else:
+        if isinstance(tables, Iterable):
             # Select all given tables
             statement = select(*tables)
             
             # Join all tables after the first one
             for table in tables[1:]:
                 statement = statement.join(table)
+        else:
+            # If user simply provided one table. Select directly.
+            statement = select(tables)
         
         # Add in conditions.
         if isinstance(conditions, BinaryExpression):
