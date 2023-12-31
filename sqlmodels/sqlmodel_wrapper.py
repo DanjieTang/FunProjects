@@ -44,19 +44,6 @@ class SQLModelWrapper:
                 
         return data      
                 
-        
-    def select_id(self, table: SQLModel, id: int) -> SQLModel | None:
-        """
-        Retrieve one record from a table using id.
-        
-        :param table: The table you want to retrieve.
-        :param id: The specific id of the record you want to retrieve.
-        :return: The sqlmodel object representing the record. Return None when none can be found.
-        """
-        with Session(self.engine) as session:
-            data = session.get(table, id)
-        
-        return data
     
     @staticmethod
     def create_condition(conditions: tuple[Any] | list[Any]) -> BinaryExpression:
@@ -78,7 +65,7 @@ class SQLModelWrapper:
             raise ValueError("Input must be a list or a tuple")
     
     @staticmethod
-    def create_statement(tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None, order_by: InstrumentedAttribute = None, increment: bool = True) -> BinaryExpression:
+    def create_statement(tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None, order_by: InstrumentedAttribute = None, increment: bool = True) -> BinaryExpression:
         """
         Create statement for performing SQL query.
         
@@ -88,10 +75,16 @@ class SQLModelWrapper:
                if the age is bigger than 65 or smaller than 18 and they belong to avengers team then True
         """
         # Table selection.
-        statement = select(*tables)
-        
-        for table in tables[1:]:
-            statement = statement.join(table)
+        if issubclass(tables, SQLModel):
+            # If user simply provided one table. Select directly.
+            statement = select(tables)
+        else:
+            # Select all given tables
+            statement = select(*tables)
+            
+            # Join all tables after the first one
+            for table in tables[1:]:
+                statement = statement.join(table)
         
         # Add in conditions.
         if isinstance(conditions, BinaryExpression):
@@ -109,7 +102,20 @@ class SQLModelWrapper:
             
         return statement
     
-    def select_one(self, tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None = None) -> SQLModel | None:
+    def select_id(self, table: SQLModel, id: int) -> SQLModel | None:
+        """
+        Retrieve one record from a table using id.
+        
+        :param table: The table you want to retrieve.
+        :param id: The specific id of the record you want to retrieve.
+        :return: The sqlmodel object representing the record. Return None when none can be found.
+        """
+        with Session(self.engine) as session:
+            data = session.get(table, id)
+        
+        return data
+    
+    def select_one(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None) -> SQLModel | None:
         """
         Retrieve one record from a tables. It will only return the record if there is exactly 
         one record that matches the condition. If more than one or less than one meets the condition, it will
@@ -127,7 +133,7 @@ class SQLModelWrapper:
             data = session.exec(statement).one()
         return data
         
-    def select_first(self, tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> SQLModel | None:
+    def select_first(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> SQLModel | None:
         """
         Retrieve one record from a tables. If more than one record satisfies the condition, return the first one.
         If none statisfies the condition, return None.
@@ -147,7 +153,7 @@ class SQLModelWrapper:
             
         return data
         
-    def select_many(self, tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True, limit: int = 1, offset: int = 0) -> list[SQLModel]:
+    def select_many(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True, limit: int = 1, offset: int = 0) -> list[SQLModel]:
         """
         Retrieve many records from a tables.
         
@@ -170,7 +176,7 @@ class SQLModelWrapper:
             
         return data
         
-    def select(self, tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> list[SQLModel]:
+    def select(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> list[SQLModel]:
         """
         Retrieve all records that statifies the statement.
         
@@ -209,7 +215,7 @@ class SQLModelWrapper:
             return False
                     
         
-    def delete_statement(self, tables: Iterable[SQLModel], conditions: BinaryExpression | list[Any] | tuple[Any] | None = None) -> bool:
+    def delete_statement(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None) -> bool:
         """
         Remove some records from database based on tables and statement.
         
