@@ -77,7 +77,7 @@ class SQLModelWrapper:
         # Table selection.
         if isinstance(tables, Iterable):
             # Select all given tables
-            statement = select(*tables)
+            statement = select(*tables).select_from(tables[0])
             
             # Join all tables after the first one
             for table in tables[1:]:
