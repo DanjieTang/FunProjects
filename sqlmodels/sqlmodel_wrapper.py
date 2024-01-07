@@ -42,7 +42,7 @@ class SQLModelWrapper:
             else:
                 session.refresh(data)
                 
-        return data      
+            return data      
                 
     
     @staticmethod
@@ -113,7 +113,7 @@ class SQLModelWrapper:
         with Session(self.engine) as session:
             data = session.get(table, id)
         
-        return data
+            return data
     
     def select_one(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None) -> SQLModel | None:
         """
@@ -131,7 +131,7 @@ class SQLModelWrapper:
         
         with Session(self.engine) as session:
             data = session.exec(statement).one()
-        return data
+            return data
         
     def select_first(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> SQLModel | None:
         """
@@ -150,8 +150,7 @@ class SQLModelWrapper:
         
         with Session(self.engine) as session:
             data = session.exec(statement).first()
-            
-        return data
+            return data
         
     def select_many(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True, limit: int = 1, offset: int = 0) -> list[SQLModel]:
         """
@@ -173,8 +172,7 @@ class SQLModelWrapper:
         
         with Session(self.engine) as session:
             data = session.exec(statement.offset(offset).limit(limit)).all()
-            
-        return data
+            return data
         
     def select(self, tables: Iterable[SQLModel] | SQLModel, conditions: BinaryExpression | list[Any] | tuple[Any] | None = None, order_by: InstrumentedAttribute = None, increment: bool = True) -> list[SQLModel]:
         """
@@ -191,8 +189,7 @@ class SQLModelWrapper:
         
         with Session(self.engine) as session:
             data = session.exec(statement).all()
-                
-        return data
+            return data
         
     def delete(self, data: SQLModel | list[SQLModel]) -> bool:
         """
