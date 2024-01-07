@@ -1,2 +1,3 @@
-# LearningProgramming
-This resource is aimed at documenting my learning process and sharing it with others who might find it useful in their own programming endeavors.
+# Fun Projects I've Done in My Free Time
+
+Take a look, have fun!
