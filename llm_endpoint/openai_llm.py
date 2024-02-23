@@ -1,4 +1,4 @@
-from llmendpoint.llm import LLM
+from llm_endpoint.llm import LLM
 from dotenv import load_dotenv
 from os import environ
 import openai
