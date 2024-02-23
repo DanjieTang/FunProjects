@@ -27,6 +27,9 @@ with pos_tracking.Pose() as pose:
             # Calculate coordinates
             x = int(nose.x * image.shape[1])  
             y = int(nose.y * image.shape[0])
+            
+            print(x)
+            print(y)
         
         k=cv2.waitKey(1000) # Wait for 1 second (1000ms) before continuing.
         
