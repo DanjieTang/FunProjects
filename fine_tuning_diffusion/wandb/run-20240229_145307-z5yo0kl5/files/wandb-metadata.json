@@ -1,0 +1,224 @@
+{
+    "os": "Linux-6.5.0-21-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-02-29T19:53:08.456532",
+    "startedAt": "2024-02-29T19:53:07.924185",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--pretrained_model_name_or_path=CompVis/stable-diffusion-v1-4",
+        "--dataset_name=lambdalabs/pokemon-blip-captions",
+        "--caption_column=text",
+        "--resolution=512",
+        "--random_flip",
+        "--train_batch_size=4",
+        "--num_train_epochs=2",
+        "--checkpointing_steps=5000",
+        "--learning_rate=1e-04",
+        "--lr_scheduler=constant",
+        "--lr_warmup_steps=0",
+        "--seed=42",
+        "--output_dir=sd-pokemon-model-lora",
+        "--validation_prompt=cute dragon creature",
+        "--report_to=wandb"
+    ],
+    "state": "running",
+    "program": "/home/techlab/Documents/GitHub/FunProjects/fine_tuning_diffusion/train_text_to_image_lora.py",
+    "codePathLocal": "train_text_to_image_lora.py",
+    "codePath": "fine_tuning_diffusion/train_text_to_image_lora.py",
+    "git": {
+        "remote": "https://github.com/DanjieTang/FunProjects.git",
+        "commit": "da93352f8f9b360873693ebe287b3629fee3c7df"
+    },
+    "email": "danjie.tang@outlook.com",
+    "root": "/home/techlab/Documents/GitHub/FunProjects",
+    "host": "techlab-Legion-Pro-7-16IRX8H",
+    "username": "techlab",
+    "executable": "/home/techlab/Documents/GitHub/FunProjects/fine_tuning_diffusion/.venv/bin/python3",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1189.8003437500001,
+        "min": 800.0,
+        "max": 4575.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1316.583,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 1062.545,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2125.552,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2131.45,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 931.361,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1033.79,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 800.936,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 2028.158,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 799.869,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 502.8939743041992,
+            "used": 326.8677520751953
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080 Laptop GPU",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 31.076961517333984
+    }
+}

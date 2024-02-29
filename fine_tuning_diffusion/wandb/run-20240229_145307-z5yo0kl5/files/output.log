@@ -1,0 +1,338 @@
+02/29/2024 14:53:08 - INFO - __main__ - ***** Running training *****
+02/29/2024 14:53:08 - INFO - __main__ -   Num examples = 833
+02/29/2024 14:53:08 - INFO - __main__ -   Num Epochs = 2
+02/29/2024 14:53:08 - INFO - __main__ -   Instantaneous batch size per device = 4
+02/29/2024 14:53:08 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 4
+02/29/2024 14:53:08 - INFO - __main__ -   Gradient Accumulation steps = 1
+02/29/2024 14:53:08 - INFO - __main__ -   Total optimization steps = 418
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  50%|██▌  | 209/418 [04:46<03:54,  1.12s/it, lr=0.0001, step_loss=0.0118]02/29/2024 14:57:54 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:   0%|                     | 0/7 [00:00<?, ?it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+{'latents_std', 'norm_num_groups', 'latents_mean', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 18.30it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps: 100%|█████| 418/418 [09:48<00:00,  1.12s/it, lr=0.0001, step_loss=0.0304]02/29/2024 15:02:57 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:   0%|                     | 0/7 [00:00<?, ?it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+{'latents_std', 'norm_num_groups', 'latents_mean', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.99it/s]
+
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+Model weights saved in sd-pokemon-model-lora/pytorch_lora_weights.safetensors
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:   0%|                     | 0/7 [00:00<?, ?it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+{'latents_std', 'norm_num_groups', 'latents_mean', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                {'upcast_attention', 'time_cond_proj_dim', 'attention_type', 'resnet_skip_time_act', 'dropout', 'addition_embed_type', 'cross_attention_norm', 'use_linear_projection', 'resnet_time_scale_shift', 'time_embedding_type', 'transformer_layers_per_block', 'addition_time_embed_dim', 'projection_class_embeddings_input_dim', 'addition_embed_type_num_heads', 'resnet_out_scale_factor', 'time_embedding_dim', 'time_embedding_act_fn', 'only_cross_attention', 'dual_cross_attention', 'num_attention_heads', 'num_class_embeds', 'class_embed_type', 'class_embeddings_concat', 'mid_block_only_cross_attention', 'encoder_hid_dim', 'conv_in_kernel', 'mid_block_type', 'timestep_post_act', 'conv_out_kernel', 'encoder_hid_dim_type', 'reverse_transformer_layers_per_block'} was not found in config. Values will be initialized to default values.
+Loaded unet as UNet2DConditionModel from `unet` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.39it/s]
+Loading unet.
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+ 97%|█████████████████████████████████████████▌ | 29/30 [00:02<00:00, 10.63it/s]
+
+ 97%|█████████████████████████████████████████▌ | 29/30 [00:02<00:00, 10.59it/s]
+
+ 97%|█████████████████████████████████████████▌ | 29/30 [00:02<00:00, 10.61it/s]
