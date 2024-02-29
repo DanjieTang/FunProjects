@@ -6,9 +6,7 @@
 # cd text_to_image
 
 # pip install -r requirements.txt
-
-# Keep on hitting enter, leave it as no quantization
-# accelerate config
+# pip install wandb
 
 # export MODEL_NAME="CompVis/stable-diffusion-v1-4"
 # export DATASET_NAME="lambdalabs/pokemon-blip-captions"
