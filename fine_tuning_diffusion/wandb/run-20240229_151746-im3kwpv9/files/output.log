@@ -117,3 +117,1286 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  10%|▍   | 209/2090 [04:45<35:07,  1.12s/it, lr=0.0001, step_loss=0.0119]02/29/2024 15:22:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.87it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  20%|▊   | 418/2090 [09:45<31:01,  1.11s/it, lr=0.0001, step_loss=0.0306]02/29/2024 15:27:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  30%|█▏  | 627/2090 [14:45<27:16,  1.12s/it, lr=0.0001, step_loss=0.0531]02/29/2024 15:32:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 27.13it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  40%|█▏ | 836/2090 [19:45<23:21,  1.12s/it, lr=0.0001, step_loss=0.00293]02/29/2024 15:37:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 27.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  50%|█ | 1045/2090 [24:45<19:25,  1.11s/it, lr=0.0001, step_loss=0.00704]02/29/2024 15:42:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.15it/s]
+
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  60%|█▊ | 1254/2090 [29:45<15:31,  1.11s/it, lr=0.0001, step_loss=0.0107]02/29/2024 15:47:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  70%|█▍| 1463/2090 [34:45<11:38,  1.11s/it, lr=0.0001, step_loss=0.00998]02/29/2024 15:52:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 26.95it/s]
+
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  80%|██▍| 1672/2090 [39:45<07:45,  1.11s/it, lr=0.0001, step_loss=0.0496]02/29/2024 15:57:32 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: cute dragon creature.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_std', 'force_upcast', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+                                                                                Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|█████████████| 7/7 [00:00<00:00, 25.54it/s]
+Steps:  80%|██▍| 1673/2090 [40:00<36:27,  5.25s/it, lr=0.0001, step_loss=0.0496]
+Steps:  80%|██▍| 1674/2090 [40:01<28:19,  4.09s/it, lr=0.0001, step_loss=0.0745]
+Steps:  80%|██▍| 1676/2090 [40:04<18:38,  2.70s/it, lr=0.0001, step_loss=0.0496]
+Steps:  80%|██▍| 1677/2090 [40:06<15:51,  2.30s/it, lr=0.0001, step_loss=0.0532]
+Steps:  80%|███▏| 1678/2090 [40:07<13:55,  2.03s/it, lr=0.0001, step_loss=0.068]
+Steps:  80%|██▍| 1680/2090 [40:10<11:35,  1.70s/it, lr=0.0001, step_loss=0.0165]
+Steps:  80%|███▏| 1681/2090 [40:11<10:53,  1.60s/it, lr=0.0001, step_loss=0.067]
+Steps:  81%|██▍| 1683/2090 [40:14<10:04,  1.48s/it, lr=0.0001, step_loss=0.0476]
+Steps:  81%|██▍| 1684/2090 [40:15<09:48,  1.45s/it, lr=0.0001, step_loss=0.0612]
+Steps:  81%|██▍| 1686/2090 [40:18<09:29,  1.41s/it, lr=0.0001, step_loss=0.0348]
+Steps:  81%|███▏| 1687/2090 [40:19<09:24,  1.40s/it, lr=0.0001, step_loss=0.059]
+Steps:  81%|██▍| 1689/2090 [40:22<09:16,  1.39s/it, lr=0.0001, step_loss=0.0544]
+Steps:  81%|██▍| 1690/2090 [40:23<09:14,  1.39s/it, lr=0.0001, step_loss=0.0133]
+Steps:  81%|██▍| 1692/2090 [40:26<09:10,  1.38s/it, lr=0.0001, step_loss=0.0246]
+Steps:  81%|██▍| 1693/2090 [40:28<09:08,  1.38s/it, lr=0.0001, step_loss=0.0535]
+Steps:  81%|███▏| 1694/2090 [40:29<09:06,  1.38s/it, lr=0.0001, step_loss=0.045]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Steps:  81%|██▍| 1696/2090 [40:32<09:01,  1.37s/it, lr=0.0001, step_loss=0.0559]
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.g'} was not found in config. Values will be initialized to default values.
