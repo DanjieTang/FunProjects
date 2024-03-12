@@ -11,7 +11,7 @@ RUN touch lol.txt
 VOLUME storage
 COPY test.py test.py
 
-EXPOSE 8000
+EXPOSE 80
 
 # Execute the script at container startup
-CMD ["uvicorn", "test:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn test:app --host 0.0.0.0 --port 80"]
