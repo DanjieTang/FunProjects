@@ -6,7 +6,6 @@ RUN pip install pydantic
 RUN pip install fastapi
 RUN pip install uvicorn
 RUN mkdir storage
-RUN touch lol.txt
 
 VOLUME storage
 COPY test.py test.py
