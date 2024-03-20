@@ -28,7 +28,6 @@ pipe = pipeline(
     feature_extractor=processor.feature_extractor,
     device=device
 )
-
 tokenizer = AutoTokenizer.from_pretrained("NousResearch/Llama-2-13b-chat-hf")
 llm_model = AutoModelForCausalLM.from_pretrained("NousResearch/Llama-2-13b-chat-hf", quantization_config=bnb_config)
 
@@ -63,17 +62,11 @@ Your reply: I'm sorry to hear that. Perhaps you'll enjoy tomorrow's session more
 For this question: {question}
 User responded with: {user_message["text"]}
 Your reply: """
-    print("My LLM prompt")
-    print(prompt)
-    print("Ends")
     encoded_input = tokenizer(prompt, return_tensors='pt')
     encoded_input = {k: v.to(device) for k, v in encoded_input.items()}
     output = llm_model.generate(**encoded_input, max_new_tokens=512)
     llm_response = tokenizer.decode(output[0], skip_special_tokens=True)
     llm_response = llm_response[len(prompt):]
-    print("My llm reponse:")
-    print(llm_response)
-    print("Ends here")
     
     # Text to speech
     tts_model.tts_to_file(
