@@ -19,7 +19,7 @@ class Tavily:
         response = self.tavily.search(query=query, search_depth=search_depth, include_raw_content=True, max_results=max_results)
         return [{"title": web_content["title"], "url": web_content["url"], "content": web_content["content"]} for web_content in response["results"]]
     
-    def search_url(self, query: str, search_depth: str = "advanced", max_results: int = 5) -> list[str]:
+    def search_url(self, query: str, search_depth: str = "advanced", max_results: int = 30) -> list[str]:
         """
         Perform search and return urls.
         
