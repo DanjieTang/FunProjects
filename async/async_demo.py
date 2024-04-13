@@ -3,8 +3,11 @@ import asyncio
 async def short_delay_long_processing(number):
     print(number)
     await asyncio.sleep(0.1)
-    for i in range(1000000000):
-        number = i
+    await asyncio.gather(
+        long_delay_short_processing(10),
+        long_delay_short_processing(20),
+        long_delay_short_processing(30),
+    )
     print(number)
         
 async def long_delay_short_processing(number):
