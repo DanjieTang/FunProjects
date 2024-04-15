@@ -13,8 +13,9 @@
 .each-experience {
     border: 3px solid skyblue;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px skyblue;
+    box-shadow: 4px 4px 5px skyblue;
     margin-bottom: 15px;
+    margin: 10px;
 }
 
 .each-experience h3 {
@@ -29,6 +30,15 @@
     margin-bottom: 10px;
 }
 
-h3:hover{
-    background-color: brown;
+.same-line {
+    display: flex;
+}
+
+.webpage-title {
+    margin: 20px;
+    font-size: 1.25rem;
+}
+
+.resume-image {
+    margin: 20px;
 }
