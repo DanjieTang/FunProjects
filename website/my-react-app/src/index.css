@@ -1,0 +1,26 @@
+.student {
+    background-color: aqua;
+}
+
+.same-line {
+    display: inline-block;
+}
+
+.counter {
+    display: inline-block;
+    text-align: center;
+    background-color: skyblue;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 25%;
+    margin: 3%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+}
