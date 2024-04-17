@@ -6,12 +6,14 @@
 // import Setter from "./Setter";
 // import UpdateCar from "./UpdateObject";
 // import ID from "./ID";
-import ShoppingList from "./ShoppingList";
+// import ShoppingList from "./ShoppingList";
+// import Test from "./Test";
+import ListClick from "./ListOnClick";
 
 function App() {
 
   return (
-    <ShoppingList />
+    <ListClick />
   );
 }
 

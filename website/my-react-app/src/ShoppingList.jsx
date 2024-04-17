@@ -19,11 +19,9 @@ export default function ShoppingList() {
     function sanityCheck(event) {
         let index = event.target.value;
 
-        if (index > 0) {
+        if (index > 0 && index <= shoppingList.length) {
             setIndex(index);
         }
-
-        console.log(index);
     }
 
     return (
