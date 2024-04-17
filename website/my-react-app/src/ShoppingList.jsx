@@ -13,7 +13,6 @@ export default function ShoppingList() {
     function removeElement() {
         let newShoppingList = [...shoppingList];
         newShoppingList.splice(index, 1);
-        console.log(newShoppingList);
         setShoppingList(newShoppingList);
     }
 
