@@ -15,12 +15,62 @@
 }
 
 .button {
-    width: 25%;
+    width: 15%;
     margin: 3%;
     border-radius: 10px;
     cursor: pointer;
+    background-color: rgb(188, 225, 240);
 }
 
 .button:hover {
-    background-color: black;
+    background-color: skyblue;
+}
+
+.to-do {
+    display: inline-block;
+    background-color: rgb(255, 250, 202);
+    color: #101820FF;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.to-do-item {
+    background-color: #d7f8ff;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.to-do-item p {
+    color: #002EA6;
+    line-height: 1.5;
+    text-align: left;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 50%;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+    overflow-wrap: break-word;
+    flex: 1;
+}
+
+.delete {
+    display: inline-block;
+    width: 15%;
+}
+
+.up {
+    display: inline-block;
+    width: 10%;
+}
+
+.down {
+    display: inline-block;
+    width: 15%;
 }
