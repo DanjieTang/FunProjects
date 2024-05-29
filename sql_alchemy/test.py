@@ -2,7 +2,7 @@ from dataclass import *
 from sqlalchemy import create_engine
 from sqlalchemy_wrapper import SQLAlchemyWrapper
 
-database = SQLAlchemyWrapper("")
+database = SQLAlchemyWrapper("test", database="postgres")
 
 team1 = Team(name = "Iron Man's team")
 database.insert(team1)

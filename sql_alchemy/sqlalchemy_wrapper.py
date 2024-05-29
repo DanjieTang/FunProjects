@@ -2,14 +2,17 @@ from sqlalchemy import create_engine, and_, or_, desc
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql.expression import BinaryExpression
 from sqlalchemy.orm.attributes import InstrumentedAttribute
-from sqlalchemy.sql import select
 from dataclass import *
 from typing import Any, Iterable
 from sqlalchemy.orm import sessionmaker
 
+
 class SQLAlchemyWrapper():
-    def __init__(self, storage_name: str = ""):
-        database_url = f"sqlite:///{storage_name}" # For now, we are only going to use sqlite.
+    def __init__(self, storage_name: str = "", database: str = "sqlite", ip: str = "localhost", port: int = 5432):
+        if database == "sqlite":
+            database_url = f"sqlite:///{storage_name}"
+        elif database == "postgres":
+            database_url = f'postgresql+psycopg2://postgres@{ip}:{port}/{storage_name}'
         self.engine = create_engine(database_url)
         Base.metadata.create_all(bind=self.engine)
         self.Session = sessionmaker(bind=self.engine)
