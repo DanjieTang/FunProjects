@@ -5,8 +5,8 @@ from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 s3_client = boto3.client('s3')
 
 # Define the bucket name and the object key
-bucket_name = 'danjie-personal'
-object_key = 'lmao/loll.png'  # The path in the bucket where the file will be stored
+bucket_name = 'enter-your-bucket-name'
+object_key = 'enter-your-object-name'  # The path in the bucket where the file will be stored
 file_path = 'ready.png'  # Local path of the file to be uploaded
 
 try:
