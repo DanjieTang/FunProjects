@@ -1,21 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"net/http"
+	"github.com/gin-gonic/gin"
+)
 
-func main(){
-	var array[5] int
+func main() {
+	// Create a new Gin router
+	router := gin.Default()
 
-	for i := 0; i < len(array); i++{
-		array[i] = i
-	}
+	// Define a route
+	router.GET("/", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "Hello, World!",
+		})
+	})
 
-	square(&array)
-
-	fmt.Println((array))
-}
-
-func square(array*[5] int){
-	for i := 0; i < len(array); i++{
-		array[i] = array[i] * 100
-	}
+	// Start the server on port 8080
+	router.Run(":8080")
 }
