@@ -1,0 +1,151 @@
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Apple-inspired design system */
+:root {
+  /* Apple colors */
+  --apple-blue: #0071e3;
+  --apple-blue-dark: #0061c3;
+  --apple-gray-50: #f5f5f7;
+  --apple-gray-100: #e8e8ed;
+  --apple-gray-200: #d2d2d7;
+  --apple-gray-300: #b0b0b8;
+  --apple-gray-400: #86868b;
+  --apple-gray-500: #6e6e73;
+  --apple-gray-600: #515154;
+  --apple-gray-700: #3a3a3c;
+  --apple-gray-800: #1d1d1f;
+  --apple-white: #ffffff;
+  --apple-red: #ff3b30;
+  --apple-green: #34c759;
+  
+  /* Other variables */
+  --apple-radius-md: 9px;
+  --apple-radius-lg: 12px;
+  --apple-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --apple-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --apple-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+}
+
+/* Base styles */
+body {
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--apple-gray-50);
+  color: var(--apple-gray-800);
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+/* Enhanced component styling */
+@layer components {
+  /* Apple-style buttons */
+  .apple-btn {
+    @apply rounded-xl font-medium text-sm py-3 px-6 transition-all duration-200 focus:outline-none;
+    background: var(--apple-blue);
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+  
+  .apple-btn:hover {
+    background: var(--apple-blue-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apple-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apple-btn-secondary {
+    @apply rounded-xl font-medium text-sm py-3 px-6 transition-all duration-200 focus:outline-none;
+    background: #e9e9eb;
+    color: var(--apple-gray-800);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .apple-btn-secondary:hover {
+    background: #dededf;
+    transform: translateY(-1px);
+  }
+  
+  /* Apple-style cards */
+  .apple-card {
+    @apply rounded-xl bg-white p-6;
+    box-shadow: var(--apple-shadow-md);
+    backdrop-filter: blur(20px);
+  }
+  
+  /* Apple-style inputs */
+  .apple-input {
+    @apply rounded-lg border border-gray-300 py-2 px-4 w-full text-gray-800 placeholder-gray-400 transition duration-150 ease-in-out;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .apple-input:focus {
+    @apply outline-none border-blue-500;
+    box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15), inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Apple-style navigation */
+  .apple-nav {
+    @apply bg-white py-4 shadow-sm;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Apple-style text and typography */
+  .apple-heading {
+    @apply font-semibold tracking-tight text-gray-800;
+    letter-spacing: -0.015em;
+  }
+  
+  .apple-subheading {
+    @apply text-gray-500 font-medium;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
+  .backdrop-blur {
+    backdrop-filter: blur(20px);
+  }
+  
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Custom scrollbar for Apple feel */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--apple-gray-300);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--apple-gray-400);
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
