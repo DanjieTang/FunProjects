@@ -1,5 +1,12 @@
-const greet = function (name) {
-    return "Hello " + name;
-};
+function haha() {
+    let a = 10;
+    let b = 20;
+    return [a, b];
+}
 
-console.log(greet("Danjie"));
+let a;
+let b;
+[a, b] = haha();
+
+console.log(a);
+console.log(b);
