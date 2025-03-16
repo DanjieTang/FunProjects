@@ -1,12 +1,7 @@
-function haha() {
-    let a = 10;
-    let b = 20;
-    return [a, b];
+function hi(){
+    console.log("Hi world");
 }
 
-let a;
-let b;
-[a, b] = haha();
+setTimeout(hi, 3000);
 
-console.log(a);
-console.log(b);
+console.log("Here");
