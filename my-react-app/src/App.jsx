@@ -1,12 +1,9 @@
 import React from "react";
-import IntermediateComponent from "./IntermediateComponent";
+import PasswordInputForm from "./Password";
 
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
-      <IntermediateComponent />
-    </div>
+    <PasswordInputForm />
   );
 }
 
