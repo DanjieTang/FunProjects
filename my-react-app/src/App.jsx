@@ -1,9 +1,17 @@
-import React from "react";
-import PasswordInputForm from "./Password";
+import { useRef } from "react";
 
 function App() {
+  const inputRef = useRef(null); // Create a ref
+
+  const focusInput = () => {
+    inputRef.current.focus(); // Access the DOM element
+  };
+
   return (
-    <PasswordInputForm />
+    <div>
+      <input ref={inputRef} type="text" placeholder="Type here..." />
+      <button onClick={focusInput}>Focus Input</button>
+    </div>
   );
 }
 
