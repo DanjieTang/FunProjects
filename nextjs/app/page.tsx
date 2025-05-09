@@ -1,33 +1,18 @@
-"use client";
-
-import { useEffect, useState } from 'react';
-
-interface ApiResponse {
-    message?: string;
-    received?: any;
+async function getData() {
+    const response = await fetch('http://localhost:3000/api/names', { cache: 'no-store' }); // URL needs to be absolute for server-side fetch
+    if (!response.ok) {
+        throw new Error('Failed to fetch data');
+    }
+    return response.json();
 }
 
-export default function Page() {
-    const [data, setData] = useState<ApiResponse | null>(null);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch('/api/names');
-                const result: ApiResponse = await response.json();
-                setData(result);
-            } catch (error) {
-                console.error("Failed to fetch data:", error);
-            }
-        };
-
-        fetchData();
-    }, []);
+export default async function Page() {
+    const data = await getData();
 
     return (
         <div>
             <h1>Hello world</h1>
-            {data && <pre>{JSON.stringify(data, null, 2)}</pre>}
+            <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
     );
 }
