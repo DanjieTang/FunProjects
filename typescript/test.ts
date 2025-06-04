@@ -1,6 +1,22 @@
-let number: number = 41;
-let mood: string = "Happy";
+interface Individual {
+    firstName: string,
+    lastName: string,
+    company: string
+}
 
-let answer: string = number === 41 ? mood === "Happy" ? "Nice" : "Ok" : number === 41 ? "Alright": "No sir";
+const complexJSON: Individual[] = [
+    {
+        firstName: "Tony",
+        lastName: "Stark",
+        company: "Stark Industry"
+    }, 
+    {
+        firstName: "Steve",
+        lastName: "Rogers",
+        company: "Government of America"
+    }
+]
 
-console.log(answer)
+const firstNameArray: string[] = complexJSON.map((value: Individual, index: number) => value.firstName)
+
+console.log(firstNameArray);

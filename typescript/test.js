@@ -1,4 +1,14 @@
-var number = 41;
-var mood = "Happy";
-var answer = number === 41 ? mood === "Happy" ? "Nice" : "Ok" : number === 41 ? "Alright" : "No sir";
-console.log(answer);
+var complexJSON = [
+    {
+        firstName: "Tony",
+        lastName: "Stark",
+        company: "Stark Industry"
+    },
+    {
+        firstName: "Steve",
+        lastName: "Rogers",
+        company: "Government of America"
+    }
+];
+var firstNameArray = complexJSON.map(function (value, index) { return value.firstName; });
+console.log(firstNameArray);
