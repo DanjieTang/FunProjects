@@ -1,21 +1,20 @@
-async function fetchWithAwait() {
-    console.log("Start fetchWithThen");
+async function first() {
+    console.log("Start first");
+    const response: Response = await fetch("http://localhost:8000/api/user");
+    const data: string = await response.text();
+    console.log("End first")
+}
 
-    try{
-        const response: Response = await fetch("http://localhost:8000/api/user");
-        console.log("We've retrieved it")
-        const data: string = await response.text();
-        console.log(data)
-    }catch{
-        console.error("Oh no")
-    }
-    console.log("End fetchWithThen");
+async function second() {
+    console.log("Start second");
+    const response: Response = await fetch("http://localhost:8000/api/user");
+    const data: string = await response.text();
+    console.log("End second");
 }
 
 function main(){
-    console.log("This is where everything begins")
-    fetchWithAwait();
-    console.log("Grinding hard");
+    first();
+    second();
 }
 
 main();
