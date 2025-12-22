@@ -8,8 +8,13 @@ class LMStudioLLM(LLM):
         self.url = url
         self.stream = stream
         self.model = model
+
+    def encode_image(self, image_path: str) -> str:
+        """Converts an image file to a base64 string."""
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode('utf-8')
     
-    def llm_response(self, user_message: str, system_message: str = "You are a helpful assistant.") -> str:
+    def llm_response(self, user_message: str, image_path: str | None = None, system_message: str = "You are a helpful assistant.") -> str:
         """
         Call hosted ollama llm and return the response.
         
@@ -34,6 +39,16 @@ class LMStudioLLM(LLM):
                 }
             ]
         }
+        if image_path:
+            data["messages"][-1]["content"] = [
+                {"type": "text", "text": user_message},
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{self.encode_image(image_path)}"
+                    }
+                }
+            ]
         response = requests.post(self.url, headers=header, data=json.dumps(data))
         
         # Check for error
