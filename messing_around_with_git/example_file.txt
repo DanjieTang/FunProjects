@@ -1,1 +1,4 @@
 Playing with commit 1
+Playing with commit 2
+Playing with commit 3
+Playing with commit 4
